@@ -1,8 +1,16 @@
-import './App.css';
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>hey
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Main />} />
+      </Routes>
+      <Footer />
     </>
   );
 }

@@ -1,0 +1,32 @@
+.footer {
+    /* position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0; */
+    width: 100%;
+    background-color: #000;
+  }
+  .footer .container {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .footer ul {
+    display: flex;
+    justify-content: center;
+  }
+  .footer li {
+    padding: 1rem;
+  }
+  .footer li a:hover {
+    padding-bottom: 5px;
+    border-bottom: 3px solid var(--secondary-color);
+  }
+  .contact-items {
+    padding: 0rem;
+  }
+  .footer p {
+    color: #fff;
+    font-size: x-small;
+    padding-bottom: 1.4rem;
+  }
+  

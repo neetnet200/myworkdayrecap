@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&family=Quicksand:wght@300;400;500&display=swap');
+
+.main {
+    /* background-color: var(--overlay); */
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  .main:before {
+    content: "";
+    /* background: url("./Images/hero.jpg") no-repeat center/cover; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .main.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 1100px;
+    margin-top: 20px;
+    padding: 1rem;
+    line-height: 1.8rem;
+    overflow: hidden;
+  }
+  .main.content .heading {
+    font-size: 2.3rem;
+    font-weight: 800;
+    padding-bottom: 20px;
+  }
+  .main .content p {
+    padding: 0px;
+    margin: -4px;
+    /* font-family: 'Manrope', sans-serif;  */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+  }
+  .main .button {
+    margin: 1rem 0;
+    width: 250px;
+  }
+
+  .main .content .heading {
+    font-size: 4rem;
+  }
+  .main .content p {
+    font-size: 1.4rem;
+  }
+  .main .content p {
+    padding: -3px;
+    margin: 0px;
+  }
+  .main .container .image-wrap {
+    display: flex;
+    margin-left: 10rem;
+    margin-top: 10rem;
+  }
+  .main .container img {
+    padding: 1rem;
+    max-width: 80%;
+    border-radius: 50%;
+  }
+  @media screen and (max-width: 859px) {
+    .main {
+      /* background-color: var(--overlay); */
+      color: #fff;
+      height: 100vh;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+  
+      /* display: grid;
+      grid-template-columns: 1fr;
+      min-height: 1300px; */
+    }
+    .main:before {
+      content: "";
+      /* background: url("./Images/hero.jpg") no-repeat center/cover; */
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+    .main .content {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 10px;
+      padding: 1rem;
+      line-height: 1.8rem;
+    }
+    .main .content .heading {
+      font-size: 2.2rem;
+      font-weight: 800;
+      padding-bottom: 10px;
+    }
+    .main.content p {
+      padding: 0px;
+      margin: -4px;
+      font-size: 1rem;
+    }
+    .main.button {
+      margin: 0.5rem 0;
+      width: 170px;
+      height: 40px;
+      font-size: 0.85rem;
+      padding: 0.2rem;
+    }
+  }
+  
