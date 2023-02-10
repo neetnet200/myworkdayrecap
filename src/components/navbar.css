@@ -48,7 +48,7 @@
     font-size: 2.5em;
   }
  
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 859px) {
     .header {
       display: block;
       position: absolute;
@@ -88,8 +88,11 @@
     .nav-menu.active {
       left: 0;
     }
-    /* .header .navbar img {
-      width: auto;
-    } */
+    .header .typeface {
+      font-family: 'Kanit', sans-serif;
+      font-weight: 600;
+      color:#282120;
+      font-size: 1.8em;
+    }
   }
   
